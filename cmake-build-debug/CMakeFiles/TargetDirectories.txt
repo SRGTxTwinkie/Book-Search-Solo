@@ -1,0 +1,3 @@
+C:/Users/zaned/Desktop/Currently Using/Current Projects/C++/BookSearchZaneReisbig/cmake-build-debug/CMakeFiles/BookSearchZaneReisbig.dir
+C:/Users/zaned/Desktop/Currently Using/Current Projects/C++/BookSearchZaneReisbig/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/zaned/Desktop/Currently Using/Current Projects/C++/BookSearchZaneReisbig/cmake-build-debug/CMakeFiles/rebuild_cache.dir

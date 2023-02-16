@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BookSearchZaneReisbig",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BookSearchZaneReisbig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BookSearchZaneReisbig-Debug-22a59c7b800986c55687.json",
+					"name" : "BookSearchZaneReisbig",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/zaned/Desktop/Currently Using/Current Projects/C++/BookSearchZaneReisbig/cmake-build-debug",
+		"source" : "C:/Users/zaned/Desktop/Currently Using/Current Projects/C++/BookSearchZaneReisbig"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
