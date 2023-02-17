@@ -4,3 +4,4 @@ project(BookSearchZaneReisbig)
 set(CMAKE_CXX_STANDARD 23)
 
 add_executable(BookSearchZaneReisbig main.cpp References/CSVReader.h References/AuthSystem.h References/EasyInput.h)
+set(CMAKE_EXE_LINKER_FLAGS ${CMAKE_EXE_LINKER_FLAGS} "-static")

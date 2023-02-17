@@ -7,27 +7,29 @@
 
 #include <iostream>
 #include <string>
+#include <utility>
+#include <limits>
 
 void eCin(std::string &input){
     std::cin >> input;
-    std::cin.ignore();
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 }
 
 void eCin(int &input){
     std::cin >> input;
-    std::cin.ignore();
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 }
 
 void eCin(std::string &input, const std::string &prompt){
     std::cout << prompt;
     std::cin >> input;
-    std::cin.ignore();
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 }
 
 void eCin(int &input, const std::string &prompt){
     std::cout << prompt;
     std::cin >> input;
-    std::cin.ignore();
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 }
 
 
@@ -36,12 +38,12 @@ class Menu
 
 
 public:
-    explicit Menu(std::string &title)
+    explicit Menu(std::string title)
     {
-        this->title = title;
+        this->title = std::move(title);
     }
 
-    void addOption(std::string &name, int returnValue)
+    void addOption(std::string name, int returnValue)
     {
         options.emplace_back(std::tuple<std::string, int>(name, returnValue));
     }
@@ -75,6 +77,7 @@ public:
 
     void getChoice(int &choice, std::string &prompt)
     {
+        system("cls");
         std::cout << prompt;
         eCin(choice);
 
